@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>이호찬 포트폴리오</title>
   </head>
   
@@ -22,18 +23,32 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="<%=request.getContextPath() %>/" class="nav-link px-2 text-secondary">홈</a></li>
-          <li><a href="<%=request.getContextPath() %>/pictures.do" class="nav-link px-2 text-white">사진</a></li>
-          <li><a href="<%=request.getContextPath() %>/myPage.do" class="nav-link px-2 text-white">마이페이지</a></li>
+          <li><a href="<%=request.getContextPath() %>/" class="nav-link px-2 text-secondary">
+            <i class="bi bi-house-door-fill"></i>
+            홈</a>
+          </li>
+          <li><a href="<%=request.getContextPath() %>/myPage.do" class="nav-link px-2 text-white">
+            <i class="bi bi-cup-hot"></i>
+            일상</a>
+          </li>
+          <li><a href="<%=request.getContextPath() %>/pictures.do" class="nav-link px-2 text-white">
+            <i class="bi bi-braces"></i>
+            프로젝트</a>
+          </li>
+          <li><a href="<%=request.getContextPath() %>/myPage.do" class="nav-link px-2 text-white">
+            <i class="bi bi-info-circle"></i>
+            마이페이지</a>
+          </li>
         </ul>
-        <!--
+        
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          <!-- 프로필 이미지 -->
+          <img src="" alt="">
         </form>
-        -->
+        
         <div class="text-end">
           <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+          <button type="button" class="btn btn-warning" href="<%=request.getRealPath("/") %>/WEB-INF/views/SignUp">Sign-up</button>
         </div>
       </div>
     </div>

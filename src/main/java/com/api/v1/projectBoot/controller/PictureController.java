@@ -12,16 +12,13 @@ import org.springframework.ui.Model;
 @Controller
 public class PictureController {
 
-    // private final Logger LOGGER =
-    // LoggerFactory.getLogger(PictureController.class);
-
     @GetMapping(value = "pictures.do")
-    public String PicturePage(Model model) {
+    public String PicturePage() {
         return "pictures";
     }
 
     @PostMapping(value = "uploadPicture.do")
-    public String uploadPicture(Model model) {
-        return "uploadPiture";
+    public String uploadPicture() {
+        return "uploadPicture";
     }
 }
