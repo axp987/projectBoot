@@ -10,11 +10,11 @@ import ch.qos.logback.classic.Logger;
 import org.springframework.ui.Model;
 
 @Controller
-public class PictureController {
+public class DailyController {
 
-    @GetMapping(value = "pictures.do")
-    public String PicturePage() {
-        return "pictures";
+    @GetMapping(value = "daily.do")
+    public String DailyPage() {
+        return "daily";
     }
 
     @PostMapping(value = "uploadPicture.do")
