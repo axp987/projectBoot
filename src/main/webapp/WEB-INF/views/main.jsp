@@ -27,11 +27,10 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000" style="background-color: gray;">
           <div align="center">
-            <img src="../../resources/imgUpload/night.jpg" height="500px" class="d-block w-50" alt="...">
+            <img src="../../resources/imgUpload/Kiyomizu-dera.jpg" height="500px" class="d-block" alt="...">
           </div>
           <div align="right" class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000" style="background-color: gray;">
