@@ -1,0 +1,11 @@
+
+.footerFont {
+    text-decoration-line: none;
+    color: black;
+}
+
+.pTag {
+    text-align: center;
+    display: inline;
+    padding-right: 30px;
+}

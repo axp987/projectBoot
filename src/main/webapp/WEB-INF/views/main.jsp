@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <title>이호찬 포트폴리오</title>
+    <link rel="stylesheet" href="../../resources/CSS/mainCss.css">
+    <title>Ho Chan Lee</title>
   </head>
   
   
@@ -24,27 +25,29 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+      
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000" style="background-color: gray;">
-          <div align="center">
-            <img src="../../resources/imgUpload/Kiyomizu-dera.jpg" height="500px" class="d-block" alt="...">
-          </div>
-          <div align="right" class="carousel-caption d-none d-md-block">
-            
-          </div>
+        <!-- 첫번째 이미지-->
+        <div class="carousel-item active" style="position: relative;">
+          <img src="../../resources/imgUpload/north-star.jpg" alt="..." style="position: absolute; height: 100%; width: 100%; z-index: -1;">
+          <div align="center" class="bannerPosition" style="position: relative;" align="center">
+            <img src="../../resources/imgUpload/Dotonbori2.jpg" height="500px" alt="...">
+            안녕하세요. 이호찬입니다.
+          </div> 
         </div>
-        <div class="carousel-item" data-bs-interval="2000" style="background-color: gray;">
-          <img src="" style="max-width: 100%; height: 500px;" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
+        <!-- 두번째 이미지-->
+        <div class="carousel-item">
+          <img src="../../resources/imgUpload/north-star.jpg" alt="..." style="position: absolute; height: 100%; width: 100%; z-index: -1;">
+          <div align="center" class="bannerPosition" style="position: relative;" align="center">
+            <img src="../../resources/imgUpload/Dotonbori2.jpg" height="500px" alt="...">
+            <div style="display: inline;">안녕하세요</div>
+          </div> 
         </div>
-        <div class="carousel-item" style="background-color: gray;">
-          <img src="" style="max-width: 100%; height: 500px;" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+        <!-- 세번째 이미지-->
+        <div class="carousel-item">
+          <img src="../../resources/imgUpload/north-star.jpg" alt="..." style="position: absolute; height: 100%; width: 100%; z-index: -1;">
+          <div align="center" class="bannerPosition" style="position: relative;" align="center">
+            <img src="../../resources/imgUpload/Kiyomizu-dera.jpg" height="500px" alt="...">
           </div>
         </div>
       </div>

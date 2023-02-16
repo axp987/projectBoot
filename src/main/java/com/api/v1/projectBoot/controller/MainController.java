@@ -10,6 +10,12 @@ public class MainController {
     @GetMapping(value = "/")
     public String MainPage() {
 
+        return "firstMain";
+    }
+
+    @GetMapping(value = "/mainDaily.do")
+    public String mainDaily() {
         return "main";
     }
+
 }
