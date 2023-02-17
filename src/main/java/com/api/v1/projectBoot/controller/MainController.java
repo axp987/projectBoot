@@ -12,10 +12,4 @@ public class MainController {
 
         return "firstMain";
     }
-
-    @GetMapping(value = "/mainDaily.do")
-    public String mainDaily() {
-        return "main";
-    }
-
 }

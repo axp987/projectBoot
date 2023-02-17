@@ -2,7 +2,7 @@
     color: white;
 }
 
-/* fistMain 전체 div */
+/* fistMain 부모 div */
 .firstPage {
     position: absolute;
     left: 50%;
@@ -40,13 +40,11 @@
 
 /* firstMain 서브 글꼴 */
 .subfontValue {
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 20px;
     
 }
-
-
 
 /* fistMain 이미지 */
 .text-center {

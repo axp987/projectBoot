@@ -29,7 +29,8 @@
             <img class="ImgSize" src="../../resources/imgUpload/myFace.jpg" class="rounded" alt="face">
             <p>
             <div class="subfontValue">
-               목적지를 위해 한걸음 한걸음 쉬지 않고 나아가서 
+                목표를 위해 인내심과 끈기를 가지고 한칸 한칸 부지런히 나아가 목표를 완수하는 개발자
+                <span style="color: blueviolet;">이호찬</span>입니다.
             </div>
         </div>
         <div>
