@@ -12,13 +12,14 @@ import org.springframework.ui.Model;
 @Controller
 public class DailyController {
 
-    @GetMapping(value = "daily.do")
-    public String DailyPage() {
-        return "daily";
+    @GetMapping(value = "/daily.do")
+    public String mainDaily() {
+        return "DailyProject";
     }
 
     @PostMapping(value = "uploadPicture.do")
     public String uploadPicture() {
         return "uploadPicture";
     }
+
 }
