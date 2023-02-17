@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../../resources/CSS/mainCss.css">
+    <link rel="stylesheet" href="../../resources/CSS/folioTopBar.css">
+    <link rel="stylesheet" href="../../resources/CSS/aboutCss.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Great+Vibes&display=swap');
+    </style>
     <title>이호찬은 누구인가요?</title>
 </head>
 <body>
@@ -16,6 +20,107 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <jsp:include page="include/SelectBar.jsp" />
+    <br>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+          <!-- 첫번째-->
+          <div class="carousel-item active">
+            <div class="container text-center parentDiv">
+                <div class="row">
+                    <div class="col-sm-6">
+             
+                    </div>
+                    <div class="col-sm-6 rightDiv">
+                        <div class="rigtTitleFont">
+                            About me
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="../../resources/imgUpload/myFace.jpg" class="imgSize" alt="...">
+                    </div>
+                    <div class="col-sm-6 rightContext">
+                       <div class="titleFont">
+                            이호찬 / Ho Chan Lee
+                       </div>
+                       <p>
+                       <div class="contextFont">
+                            1995.07.07 (만 27세)
+                            <br>
+                            서울시 중랑구 면목로
+                       </div>
+                       <hr>
+                       <div class="titleFont">
+                            학 력
+                       </div>
+                       <p>
+                       <div class="contextFont">
+                            2022 국가평생교육진흥원(컴퓨터 공학(학사)) 졸업
+                            <br>
+                            2021 한국IT학교(정보보호 전공(공학사)) 졸업
+                            <br>
+                            2014 송곡고등학교 졸업
+                       </div>
+                       <hr>
+                       <div class="titleFont"> 
+                            자 격 증
+                       </div>
+                       <p>
+                       <div class="contextFont">
+                            2021 정보처리산업기사 취득
+                            2021 컴퓨터활용능력 2급 취득
+                            2016 네트워크관리사 2급 취득
+                       </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4">
+                        <div class="leftFont">
+                            "목표를 위해 끊임없이 달려가는 개발자가 되겠습니다"
+                            <br>
+                            <div style="font-weight: bold; font-size: 20px; padding-bottom: 5px;">안녕하세요! 이호찬 입니다</div>
+                            <div style="font-size: 14px; line-height: 5mm;">
+                                목표를 위해 만들기만 하는 사람이 아닌 창의적이고 누구나 흥미를 가지는 기능을 만드는 방향을 추구합니다.
+                                <br>
+                                손만 움직이는 개발자가 아닌 생각하는 개발자가 되기 위해 매일 노력하고 성장하는 이호찬 입니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- 두번째 -->
+          <div class="carousel-item">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-6 skillFont">
+                        SKILL (직무 기술)
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- 세번째 -->
+          <div class="carousel-item">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-6 skillFont">
+                        Experience (경험치)
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     
     <div align="center">
         <jsp:include page="include/footer.jsp" />

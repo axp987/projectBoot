@@ -2,7 +2,7 @@
     color: white;
 }
 
-/* fistMain 부모 div */
+/* firstMain 부모 div */
 .firstPage {
     position: absolute;
     left: 50%;
@@ -21,9 +21,9 @@
     }
 }
 
-/* firstMain 이름 글꼴 */
+/* firstMain 제목 글꼴 */
 .mainfontValue {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Fuzzy Bubbles', cursive;
     font-size: 32px;
     font-weight: bold;
     color: blueviolet;
@@ -38,9 +38,9 @@
     text-decoration-line: underline;
 }
 
-/* firstMain 서브 글꼴 */
+/* firstMain 각오 글꼴 */
 .subfontValue {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 20px;
     
@@ -57,13 +57,14 @@
     border-radius: 20%;
 }
 
+/* firstMain 하단 링크바 */
 .aLink {
     text-decoration-line: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Fuzzy Bubbles', cursive;
     color: blueviolet;
     font-weight: bold;
     font-size: 24px;
-    padding-right: 8px;
+    padding-right: 12px;
 }
 
 .aLink:hover {

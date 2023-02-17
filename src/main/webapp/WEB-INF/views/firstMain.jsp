@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../resources/CSS/mainCss.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Great+Vibes&display=swap');
+    </style>
     <title>Ho Chan Lee</title>
 </head>
 <style>
@@ -23,7 +26,7 @@
     <script src="../../resources/JS/mainJS.js"></script>
     <div class="firstPage" align="center">
         <div class="mainfontValue">
-            <a href="<%=request.getContextPath() %>/mainDaily.do" class="blog-header-logo">Ho Chan Lee</a>
+            <a href="<%=request.getContextPath() %>/daily.do" class="blog-header-logo">Ho Chan Lee</a>
         </div>
         <div class="text-center">
             <img class="ImgSize" src="../../resources/imgUpload/myFace.jpg" class="rounded" alt="face">
@@ -36,8 +39,8 @@
         <div>
             <a href="<%=request.getContextPath() %>/" class="aLink">Home</a>
             <a href="<%=request.getContextPath() %>/about.do" class="aLink">About</a>
-            <a href="" class="aLink">PortFolio</a>
-            <a href="<%=request.getContextPath() %>/mainDaily.do" class="aLink">Daily</a>
+            <a href="<%=request.getContextPath() %>/portFolio.do" class="aLink">PortFolio</a>
+            <a href="<%=request.getContextPath() %>/daily.do" class="aLink">Daily</a>
         </div>
         <div>
             <jsp:include page="include/footer.jsp" />
