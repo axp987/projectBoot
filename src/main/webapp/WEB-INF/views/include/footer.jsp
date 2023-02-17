@@ -9,12 +9,12 @@
     <title>footer</title>
 </head>
 <body>
-    <div>
+    <div style="padding-top: 40px;">
         <footer class="text-muted">
             <div class="container">
               <p class="mb-0 pTag">Email <a class="footerFont" onclick="clip('email')">axp987@naver.com</a></p>
               <p class="mb-0 pTag">Phone <a class="footerFont" onclick="clip('phone')">010-2245-8357</a></p>
-              <p class="mb-0">Address <span class="footerFont">서울시 중랑구 면목로</span></p>
+              <p class="mb-0 pTag">Address <span class="footerFont">서울시 중랑구 면목로</span></p>
             </div>
           </footer>
     </div>

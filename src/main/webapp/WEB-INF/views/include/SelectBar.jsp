@@ -9,23 +9,26 @@
     <title>선택바</title>
 </head>
 <body>
-    <div class="container text-center">
+    <div align="center" class="container text-center">
         <div class="row">
-            <div class="col-sm-12">Ho Chan Lee</div>
+            <div class="col-sm-12 mainFont">Ho Chan Lee</div>
         </div>
         <p>
-        <div class="row">
-            <div class="col-sm-3">
-                <a href="<%=request.getContextPath() %>/">Home</a>
+        <div class="row selectBar">
+            <div class="col-md-2">
+
             </div>
-            <div class="col-sm-3">
-                <a href="<%=request.getContextPath() %>/about.do">About</a>
+            <div class="col-md-2">
+                <a class="linkFont" href="<%=request.getContextPath() %>/">Home</a>
             </div>
-            <div class="col-sm-3">
-                <a href="<%=request.getContextPath() %>/portFolio.do">PortFolio</a>
+            <div class="col-md-2">
+                <a class="linkFont" href="<%=request.getContextPath() %>/about.do">About</a>
             </div>
-            <div class="col-sm-3">
-                <a href="<%=request.getContextPath() %>/mainDaily.do">Daily</a>
+            <div class="col-md-2">
+                <a class="linkFont" href="<%=request.getContextPath() %>/portFolio.do">PortFolio</a>
+            </div>
+            <div class="col-md-2">
+                <a class="linkFont" href="<%=request.getContextPath() %>/daily.do">Daily</a>
             </div>
         </div>
     </div>

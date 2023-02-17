@@ -1,2 +1,22 @@
 
+/* 제목 폰트 */
+.mainFont {
+    text-decoration-line: underline;
+    font-size: 40px;
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
 
+/* 선택바 폰트 */
+.linkFont {
+    text-decoration-line: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    color: blueviolet;
+}
+
+.linkFont:hover {
+    text-decoration-line: underline;
+}
