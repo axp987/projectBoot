@@ -51,3 +51,21 @@ body {
     font-size: 60px;
     font-weight: bold;
 }
+
+/* 캐러셀 */
+.carousel-control-prev {
+    justify-content: center;
+}
+
+.carousel-control-next {
+    justify-content: center;
+}
+
+.card-default-size {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.card {
+    border: 2px solid gray;
+}

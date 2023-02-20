@@ -21,26 +21,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <jsp:include page="include/SelectBar.jsp" />
     <br>
-    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+    <div id="carouselExampleDark" class="carousel slide" data-bs-touch="false">
         <div class="carousel-inner">
           <!-- 첫번째-->
           <div class="carousel-item active">
             <div class="container text-center parentDiv">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-5">
              
                     </div>
-                    <div class="col-sm-6 rightDiv">
+                    <div class="col-sm-7 rightDiv">
                         <div class="rigtTitleFont">
                             About me
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-5">
                         <img src="../../resources/imgUpload/myFace.jpg" class="imgSize" alt="...">
                     </div>
-                    <div class="col-sm-6 rightContext">
+                    <div class="col-sm-7 rightContext">
                        <div class="titleFont">
                             이호찬 / Ho Chan Lee
                        </div>
@@ -69,7 +69,9 @@
                        <p>
                        <div class="contextFont">
                             2021 정보처리산업기사 취득
+                            <br>
                             2021 컴퓨터활용능력 2급 취득
+                            <br>
                             2016 네트워크관리사 2급 취득
                        </div>
                     </div>
@@ -85,6 +87,7 @@
                                 목표를 위해 만들기만 하는 사람이 아닌 창의적이고 누구나 흥미를 가지는 기능을 만드는 방향을 추구합니다.
                                 <br>
                                 손만 움직이는 개발자가 아닌 생각하는 개발자가 되기 위해 매일 노력하고 성장하는 이호찬 입니다.
+                                <i class="bi bi-caret-left-fill"></i>
                             </div>
                         </div>
                     </div>
@@ -96,8 +99,54 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-6 skillFont">
-                        SKILL (직무 기술)
+                        Skill
                     </div>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col-4">
+                          <div class="card">
+                            <div class="row" align="center">
+                                <div class="col-2">
+                                </div>
+                                <div class="col-4">
+                                    <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
+                                </div>
+                                <div class="col-4">
+                                    <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
+                                </div>
+                                <div class="col-2">
+                                </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
           </div>
@@ -106,19 +155,20 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-6 skillFont">
-                        Experience (경험치)
+                        Experience
                     </div>
                 </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <i class="bi bi-caret-left-fill fs-2" style="color: black;"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <i class="bi bi-caret-right-fill fs-2" style="color: black;"></i>
+            <span class="visually-hidden">Next</span>
         </button>
     </div>
     
