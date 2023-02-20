@@ -27,7 +27,7 @@
       
       <div class="carousel-inner">
         <!-- 첫번째 이미지-->
-        <div class="carousel-item active" style="position: relative;">
+        <div class="carousel-item active" style="position: relative; background-color: gray;">
           <img src="../../resources/imgUpload/north-star.jpg" alt="..." style="position: absolute; height: 100%; width: 100%; z-index: -1;">
           <div align="center" class="bannerPosition" style="position: relative;" align="center">
             <img src="../../resources/imgUpload/Dotonbori2.jpg" height="500px" alt="...">
