@@ -104,14 +104,15 @@
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col-4">
                           <div class="card">
-                            <div class="row" align="center">
+                            <h5 class="card-title ">Front-end</h5>
+                            <div class="row">
                                 <div class="col-2">
                                 </div>
                                 <div class="col-4">
                                     <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
                                 </div>
                                 <div class="col-4">
-                                    <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
+                                    <img src="../../resources/imgUpload/c.png" class="card-img-top card-default-size" alt="...">
                                 </div>
                                 <div class="col-2">
                                 </div>
@@ -121,27 +122,27 @@
                         </div>
                         <div class="col-4">
                           <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                            <h5 class="card-title">Back-end</h5>
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <img src="..." class="card-img-top" alt="...">
                               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                           </div>
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                            <h5 class="card-title">DataBase, Server</h5>
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <img src="..." class="card-img-top" alt="...">
                               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                             </div>
                           </div>
                         </div>
                         <div class="col">
                           <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                            <h5 class="card-title">Tools</h5>
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <img src="..." class="card-img-top" alt="...">
                               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                           </div>

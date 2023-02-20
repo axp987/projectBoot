@@ -11,12 +11,11 @@
 <body>
     <div align="center" class="container text-center">
         <div class="row">
-            <div class="col-sm-12 mainFont">Ho Chan Lee</div>
+            <div class="col-sm-12 mainFont"><a href="<%=request.getContextPath() %>/daily.do">Ho Chan Lee</a></div>
         </div>
         <p>
         <div class="row selectBar">
             <div class="col-md-2">
-
             </div>
             <div class="col-md-2">
                 <a class="linkFont" href="<%=request.getContextPath() %>/">Home</a>
@@ -28,7 +27,7 @@
                 <a class="linkFont" href="<%=request.getContextPath() %>/portFolio.do">PortFolio</a>
             </div>
             <div class="col-md-2">
-                <a class="linkFont" href="<%=request.getContextPath() %>/daily.do">Daily</a>
+                <a class="linkFont" href="<%=request.getContextPath() %>/contact.do">Contact</a>
             </div>
         </div>
     </div>
