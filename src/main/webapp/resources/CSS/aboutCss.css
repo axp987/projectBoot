@@ -16,8 +16,6 @@ body {
 
 /* 이미지 크기 */
 .imgSize {
-    max-width: 400px;
-    max-height: 350px;
     padding-bottom: 8px;
 }
 
@@ -64,6 +62,10 @@ body {
 .card-default-size {
     max-width: 120px;
     max-height: 120px;
+}
+
+.web-img {
+    max-height: 180px;
 }
 
 .card {
