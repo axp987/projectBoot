@@ -30,15 +30,26 @@
                     <div class="col-sm-5">
              
                     </div>
-                    <div class="col-sm-7 rightDiv">
+                    <div class="col-sm-7 col-12 rightDiv">
                         <div class="rigtTitleFont">
                             About me
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-5">
-                        <img src="../../resources/imgUpload/myFace.jpg" class="imgSize" alt="...">
+                    <div class="col-sm-5 col-12">
+                        <img src="../../resources/imgUpload/myFace.jpg" class="img-thumbnail imgSize" alt="...">
+                        <div class="leftFont">
+                          "목표를 위해 끊임없이 달려가는 개발자가 되겠습니다"
+                          <br>
+                          <div style="font-weight: bold; font-size: 20px; padding-bottom: 5px;">안녕하세요! 이호찬 입니다</div>
+                          <div style="font-size: 14px; line-height: 5mm;">
+                              목표를 위해 만들기만 하는 사람이 아닌 창의적이고 누구나 흥미를 가지는 기능을 만드는 방향을 추구합니다.
+                              <br>
+                              손만 움직이는 개발자가 아닌 생각하는 개발자가 되기 위해 매일 노력하고 성장하는 이호찬 입니다.
+                              <br>
+                          </div>
+                      </div>
                     </div>
                     <div class="col-sm-7 rightContext">
                        <div class="titleFont">
@@ -76,22 +87,6 @@
                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-4">
-                        <div class="leftFont">
-                            "목표를 위해 끊임없이 달려가는 개발자가 되겠습니다"
-                            <br>
-                            <div style="font-weight: bold; font-size: 20px; padding-bottom: 5px;">안녕하세요! 이호찬 입니다</div>
-                            <div style="font-size: 14px; line-height: 5mm;">
-                                목표를 위해 만들기만 하는 사람이 아닌 창의적이고 누구나 흥미를 가지는 기능을 만드는 방향을 추구합니다.
-                                <br>
-                                손만 움직이는 개발자가 아닌 생각하는 개발자가 되기 위해 매일 노력하고 성장하는 이호찬 입니다.
-                                <i class="bi bi-caret-left-fill"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
           </div>
           <!-- 두번째 -->
@@ -107,15 +102,8 @@
                             <h5 class="card-title ">Front-end</h5>
                             <div class="card-body">
                               <div class="row">
-                                <div class="col-2">
-                                </div>
-                                <div class="col-6 col-sm-4">
-                                    <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
-                                </div>
-                                <div class="col-6 col-sm-4">
-                                    <img src="../../resources/imgUpload/c.png" class="card-img-top card-default-size" alt="...">
-                                </div>
-                                <div class="col-2">
+                                <div class="col-12 col-sm-12">
+                                    <img src="../../resources/imgUpload/web.jpg" class="card-img-top web-img" alt="...">
                                 </div>
                               </div>
                             </div>
