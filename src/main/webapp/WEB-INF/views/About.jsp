@@ -105,17 +105,19 @@
                         <div class="col-4">
                           <div class="card">
                             <h5 class="card-title ">Front-end</h5>
-                            <div class="row">
+                            <div class="card-body">
+                              <div class="row">
                                 <div class="col-2">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-6 col-sm-4">
                                     <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-6 col-sm-4">
                                     <img src="../../resources/imgUpload/c.png" class="card-img-top card-default-size" alt="...">
                                 </div>
                                 <div class="col-2">
                                 </div>
+                              </div>
                             </div>
                             
                           </div>
@@ -124,8 +126,20 @@
                           <div class="card">
                             <h5 class="card-title">Back-end</h5>
                             <div class="card-body">
-                              <img src="..." class="card-img-top" alt="...">
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="row">
+                                <div class="col-sm-2">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="../../resources/imgUpload/c.png" class="card-img-top card-default-size" alt="...">
+                                </div>
+                                <div class="col-sm-2">
+                                </div>
+                              </div>
+
+
                             </div>
                           </div>
                         </div>

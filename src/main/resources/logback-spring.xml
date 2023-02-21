@@ -17,7 +17,9 @@
         </encoder>
     </appender>
 
+    
     <!-- 파일 저장 태그 -->
+    <!--
     <appender name="DEBUG_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>DEBUG</level>
@@ -47,7 +49,7 @@
             <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n</pattern>
         </encoder>
     </appender>
-
+    -->
     <!--
     <appender name="WARN_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
       <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
@@ -83,10 +85,10 @@
     <root level="INFO">
         <appender-ref ref="console" />
         <!--
-    <appender-ref ref="DEBUG_LOG" />
-    <appender-ref ref="INFO_LOG" />
-    <appender-ref ref="WARN_LOG" />
-    <appender-ref ref="ERROR_LOG" />
-    -->
+          <appender-ref ref="DEBUG_LOG" />
+          <appender-ref ref="INFO_LOG" />
+          <appender-ref ref="WARN_LOG" />
+          <appender-ref ref="ERROR_LOG" />
+        -->
     </root>
 </configuration>
