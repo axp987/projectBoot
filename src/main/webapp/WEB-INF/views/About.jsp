@@ -100,12 +100,21 @@
                         <div class="col-4">
                           <div class="card">
                             <h5 class="card-title ">Front-end</h5>
-                            <div class="card-body">
+                            <div class="card-body" align="center">
                               <div class="row">
                                 <div class="col-12 col-sm-12">
                                     <img src="../../resources/imgUpload/web.jpg" class="card-img-top web-img" alt="...">
                                 </div>
                               </div>
+                              <div class="row" align="center">
+                                <div class="col-2 col-sm-2">
+
+                                </div>
+                                <div class="col-3 col-sm-3">
+                                  <img src="../../resources/imgUpload/bootStrap.png" class="card-img-top web-img" alt="...">
+                                  BootStrap
+                                </div>
+                              </div>  
                             </div>
                             
                           </div>
@@ -126,7 +135,16 @@
                                 <div class="col-sm-2">
                                 </div>
                               </div>
-
+                              <div class="row">
+                                <div class="col-sm-2">
+                                </div>
+                                <div class="col-4 col-sm-4">
+                                  <img src="../../resources/imgUpload/springframe.png" class="card-img-top web-img" alt="...">
+                                </div>
+                                <div class="col-4 col-sm-4">
+                                  <img src="../../resources/imgUpload/sb.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
+                                </div>
+                              </div>
 
                             </div>
                           </div>
