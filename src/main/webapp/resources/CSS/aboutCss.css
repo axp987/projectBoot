@@ -71,3 +71,12 @@ body {
 .card {
     border: 2px solid gray;
 }
+
+/* percent */
+.per {
+    text-align: center;
+}
+.percent {
+    height: 30px;
+    display: inline-block;
+}
