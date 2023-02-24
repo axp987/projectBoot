@@ -40,7 +40,9 @@
                     <div>USE Skills</div>
                     <img src="../../resources/imgUpload/Java.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
-                    <img src="../../resources/SkillImg/j-Query.png" class="card-img-top" style="width: 80px; height: 50px;">
+                    <img src="../../resources/SkillImg/j-Query.png" class="card-img-top" style="width: 60px; height: 50px;">
+                    &nbsp;&nbsp;
+                    <img src="../../resources/SkillImg/jsp.png" class="card-img-top percent-img">
                 </div>
             </div>
 
