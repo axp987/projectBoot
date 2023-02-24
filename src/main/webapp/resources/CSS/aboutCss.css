@@ -50,6 +50,21 @@ body {
     font-weight: bold;
 }
 
+.webCss {
+    height: 130px;
+    width: 130px;
+}
+
+.toolCss {
+    width: 70px;
+    height: 70px;
+}
+
+.DSCss {
+    width: 130px;
+    height: 100px;
+}
+
 /* 캐러셀 */
 .carousel-control-prev {
     justify-content: center;
@@ -62,10 +77,6 @@ body {
 .card-default-size {
     max-width: 120px;
     max-height: 120px;
-}
-
-.web-img {
-    max-height: 180px;
 }
 
 .card {

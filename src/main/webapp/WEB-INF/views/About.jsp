@@ -94,7 +94,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-6 skillFont">
-                        Skill
+                        Skills
                     </div>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col-4">
@@ -103,7 +103,10 @@
                             <div class="card-body" align="center">
                               <div class="row">
                                 <div class="col-12 col-sm-12">
-                                    <img src="../../resources/imgUpload/web.jpg" class="card-img-top web-img" alt="...">
+                                    <!-- <img src="../../resources/imgUpload/web.jpg" class="card-img-top web-img" alt="..."> -->
+                                    <img src="../../resources/imgUpload/HTML5.jpg" class="card-img-top webCss" alt="...">
+                                    <img src="../../resources/imgUpload/CSS3.jpg" class="card-img-top webCss" alt="...">
+                                    <img src="../../resources/imgUpload/js.png" class="card-img-top" style="height: 100px; width: 100px;" alt="...">
                                 </div>
                               </div>
                               <div class="row" align="center">
@@ -111,7 +114,7 @@
 
                                 </div>
                                 <div class="col-3 col-sm-3">
-                                  <img src="../../resources/imgUpload/bootStrap.png" class="card-img-top web-img" alt="...">
+                                  <img src="../../resources/imgUpload/bootStrap.png" class="card-img-top" style="height: 80px; width: 80px;" alt="...">
                                   BootStrap
                                 </div>
                               </div>  
@@ -157,10 +160,10 @@
                                 <div class="col-sm-1">
                                 </div>
                                 <div class="col-sm-5">
-                                  <img src="../../resources/imgUpload/oracleDB.png" class="card-img-top" alt="...">
+                                  <img src="../../resources/imgUpload/oracleDB.png" class="card-img-top DSCss" alt="...">
                                 </div>
                                 <div class="col-sm-4">
-                                  <img src="../../resources/imgUpload/linux.png" class="card-img-top" style="max-width: 400px; height: 200px;" alt="...">
+                                  <img src="../../resources/imgUpload/linux-logo.png" class="card-img-top DSCss" alt="...">
                                 </div>
                               </div>                              
                             </div>
@@ -174,11 +177,11 @@
                                 <div class="col-sm-1">
                                 </div>
                                 <div class="col-sm-5">
-                                  <img src="../../resources/imgUpload/EClipse.png" class="card-img-top" alt="...">
+                                  <img src="../../resources/imgUpload/Eclipse.png" class="card-img-top toolCss" alt="..."><br>
                                   Eclipse
                                 </div>
                                 <div class="col-sm-5">
-                                  <img src="../../resources/imgUpload/vscode.png" class="card-img-top" style="padding-top: 30px; width: 150px; height: 150px;" alt="..."><br><br>
+                                  <img src="../../resources/imgUpload/vscode.png" class="card-img-top toolCss" alt="..."><br>
                                   Visual Studio Code
                                 </div>
                               </div>
@@ -186,11 +189,11 @@
                                  <div class="col-sm-1">
                                  </div> 
                                  <div class="col-sm-5">
-                                  <img src="../../resources/imgUpload/intellij.png" class="card-img-top" style="width: 150px; height: 150px;" alt="..."><br>
+                                  <img src="../../resources/imgUpload/intellij.png" class="card-img-top toolCss"  alt="..."><br>
                                   IntelliJ IDEA
                                  </div>
                                  <div class="col-sm-5">
-                                  <img src="../../resources/imgUpload/github.png" class="card-img-top" style="width: 150px; height: 150px;" alt="..."><br>
+                                  <img src="../../resources/imgUpload/github.png" class="card-img-top toolCss" alt="..."><br>
                                   Git Hub
                                  </div>
                               </div>
@@ -201,7 +204,9 @@
                 </div>
             </div>
           </div>
+
           <!-- 세번째 -->
+          <!--
           <div class="carousel-item">
             <div class="container text-center">
                 <div class="row">
@@ -222,6 +227,7 @@
                 </div>
             </div>
           </div>
+          -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
             <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
