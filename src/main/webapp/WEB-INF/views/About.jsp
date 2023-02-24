@@ -142,7 +142,7 @@
                                   <img src="../../resources/imgUpload/springframe.png" class="card-img-top web-img" alt="...">
                                 </div>
                                 <div class="col-4 col-sm-4">
-                                  <img src="../../resources/imgUpload/springBoot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
+                                  <img src="../../resources/imgUpload/springboot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
                                 </div>
                               </div>
 
