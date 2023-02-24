@@ -13,7 +13,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Great+Vibes&display=swap');
     </style>
-    <title>이호찬은 누구인가요?</title>
+    <title>About Me</title>
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
@@ -136,13 +136,13 @@
                                 </div>
                               </div>
                               <div class="row">
-                                <div class="col-sm-2">
+                                <div class="col-sm-1">
                                 </div>
-                                <div class="col-4 col-sm-4">
+                                <div class="col-4 col-sm-5">
                                   <img src="../../resources/imgUpload/springframe.png" class="card-img-top web-img" alt="...">
                                 </div>
                                 <div class="col-4 col-sm-4">
-                                  <img src="../../resources/imgUpload/sb.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
+                                  <img src="../../resources/imgUpload/springBoot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
                                 </div>
                               </div>
 
@@ -153,8 +153,16 @@
                           <div class="card">
                             <h5 class="card-title">DataBase, Server</h5>
                             <div class="card-body">
-                              <img src="..." class="card-img-top" alt="...">
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                              <div class="row">
+                                <div class="col-sm-1">
+                                </div>
+                                <div class="col-sm-5">
+                                  <img src="../../resources/imgUpload/oracleDB.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="col-sm-4">
+                                  <img src="../../resources/imgUpload/linux.png" class="card-img-top" style="max-width: 400px; height: 200px;" alt="...">
+                                </div>
+                              </div>                              
                             </div>
                           </div>
                         </div>
@@ -162,8 +170,30 @@
                           <div class="card">
                             <h5 class="card-title">Tools</h5>
                             <div class="card-body">
-                              <img src="..." class="card-img-top" alt="...">
-                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <div class="row">
+                                <div class="col-sm-1">
+                                </div>
+                                <div class="col-sm-5">
+                                  <img src="../../resources/imgUpload/EClipse.png" class="card-img-top" alt="...">
+                                  Eclipse
+                                </div>
+                                <div class="col-sm-5">
+                                  <img src="../../resources/imgUpload/vscode.png" class="card-img-top" style="padding-top: 30px; width: 150px; height: 150px;" alt="..."><br><br>
+                                  Visual Studio Code
+                                </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-sm-1">
+                                 </div> 
+                                 <div class="col-sm-5">
+                                  <img src="../../resources/imgUpload/intellij.png" class="card-img-top" style="width: 150px; height: 150px;" alt="..."><br>
+                                  IntelliJ IDEA
+                                 </div>
+                                 <div class="col-sm-5">
+                                  <img src="../../resources/imgUpload/github.png" class="card-img-top" style="width: 150px; height: 150px;" alt="..."><br>
+                                  Git Hub
+                                 </div>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -176,8 +206,19 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-6 skillFont">
-                        Experience
+                        Skill percent
                     </div>
+                </div>
+                <div  class="row">
+                  <div class="col-1">
+
+                  </div>
+                  <div class="col-sm-2">
+                    <img src="../../resources/imgUpload/Java.png" class="img-thumbnail card-img-top" style="height: 150px; width: 150px;" alt="..."><br>
+                  </div>
+                  <div class="col-sm-9 per">
+                    <hr class="percent" style="background-color: red;">
+                  </div>
                 </div>
             </div>
           </div>
@@ -192,7 +233,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    
+  
     <div align="center">
         <jsp:include page="include/footer.jsp" />
     </div>

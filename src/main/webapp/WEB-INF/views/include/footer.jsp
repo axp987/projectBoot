@@ -9,6 +9,7 @@
     <title>footer</title>
 </head>
 <body>
+    <hr>
     <div style="padding-top: 40px;">
         <footer class="text-muted">
             <div class="container">
