@@ -11,4 +11,14 @@ public class PortFolioController {
         return "portFolio";
     }
 
+    @GetMapping(value = "vidivid.do")
+    public String vidividPage() {
+        return "portFolioFolder/vidivid";
+    }
+
+    @GetMapping(value = "airbnb.do")
+    public String airbnbPage() {
+        return "portFolioFolder/airbnb";
+    }
+
 }
