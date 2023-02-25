@@ -22,7 +22,7 @@
     <p>
     <div class="container text-center">
         <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
+            <div class="col table-hover" onclick="location.href='<%=request.getContextPath() %>/vidivid.do'">
                 <img src="../../resources/portFolioImg/vidivid.png" class="card-img-top img-thumbnail portFolio-img" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">VIDIVID</h5>
@@ -30,38 +30,21 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col table-hover">
                 <img src="../../resources/portFolioImg/Airbnb.png" class="card-img-top img-thumbnail portFolio-img" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">AirBnb</h5>
+                    <h5 class="card-title">Airbnb</h5>
                     <p class="card-text">숙소 예약 웹 사이트</p>
                 </div>
                 <div align="left">
                     <div>USE Skills</div>
                     <img src="../../resources/imgUpload/Java.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
-                    <img src="../../resources/SkillImg/j-Query.png" class="card-img-top" style="width: 60px; height: 50px;">
+                    <img src="../../resources/SkillImg/j-Query.png" class="card-img-top" style="width: 70px; height: 30px;">
                     &nbsp;&nbsp;
                     <img src="../../resources/SkillImg/jsp.png" class="card-img-top percent-img">
                 </div>
             </div>
-
-            <div class="col">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-
-            <div class="col">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-        </div>
     </div>
     <div align="center">
         <jsp:include page="include/footer.jsp" />
