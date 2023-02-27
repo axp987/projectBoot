@@ -12,4 +12,9 @@ public class MainController {
 
         return "firstMain";
     }
+
+    @GetMapping(value = "/contact.do")
+    public String ContactPage() {
+        return "Contact";
+    }
 }

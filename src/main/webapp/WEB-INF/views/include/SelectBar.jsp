@@ -9,7 +9,7 @@
     <title>선택바</title>
 </head>
 <body>
-    <div align="center" class="container text-center">
+    <div class="container text-center">
         <div class="row">
             <div class="col-sm-12 mainFont"><a href="<%=request.getContextPath() %>/daily.do">Ho Chan Lee</a></div>
         </div>

@@ -150,8 +150,8 @@
                                 <div class="col-6 col-lg-5">
                                   <img src="../../resources/imgUpload/springframe.png" class="card-img-top web-img" alt="...">
                                 </div>
-                                <div class="col-6 col-lg-5">
-                                  <img src="../../resources/imgUpload/springboot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
+                                <div class="col-6 col-lg-4">
+                                  <img src="../../resources/imgUpload/springBoot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
                                 </div>
                               </div>
 
@@ -190,7 +190,7 @@
                                 <div class="col-1">
                                 </div>
                                 <div class="col-5">
-                                  <img src="../../resources/imgUpload/Eclipse.png" class="card-img-top toolCss" alt="..."><br>
+                                  <img src="../../resources/imgUpload/EClipse.png" class="card-img-top toolCss" alt="..."><br>
                                   Eclipse
                                 </div>
                                 <div class="col-5">
