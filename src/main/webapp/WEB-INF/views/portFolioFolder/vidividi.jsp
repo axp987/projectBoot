@@ -31,8 +31,11 @@
         </div>
         <div class="row">
             <div class="col-8 col-sm-12">
-                <img src="../../../resources/imgUpload/vidiMain.png" class="vidividi-img">
+                <img src="../../../resources/portFolioImg/vidiMain.png" class="vidividi-img">
             </div>
+        </div>
+        <div class="row">
+
         </div>
         <jsp:include page="../include/footer.jsp" />
     </div>

@@ -2,7 +2,7 @@ body {
     animation: fadein 10s ease 3s;
   -webkit-animation: fadein 3s; /* Safari and Chrome */
   font-family: 'Fuzzy Bubbles', cursive;
-  background-image: url("../../resources/imgUpload/vidi-back.jpg");
+  background-image: url("../../resources/portFolioImg/vidi-back.jpg");
 }
 @keyframes fadein {
     from {
