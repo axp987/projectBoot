@@ -13,7 +13,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Great+Vibes&display=swap');
     </style>
-    <title>VIDIVID</title>
+    <title>VIDIVID Project</title>
 </head>
 <body>
     <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -34,8 +34,37 @@
                 <img src="../../../resources/portFolioImg/vidiMain.png" class="vidividi-img">
             </div>
         </div>
-        <div class="row">
-
+        <p>
+        <div class="row" style="float: none; margin: 100 auto;">
+            <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
+                <img src="../../../resources/portFolioImg/vidichannelPage.png" class="card-img-top vidividi-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">채널 페이지</p>
+                </div>
+              </div>
+              <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
+                <img src="../../../resources/portFolioImg/vidiChannel.png" class="card-img-top vidividi-img" style="height: 80%;" alt="...">
+                <div class="card-body">
+                  <p class="card-text">채널 관리 페이지</p>
+                </div>
+              </div>
+        </div>
+        <div class="row" style="float: none; margin: 100 auto;">
+            <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
+                <img src="../../../resources/portFolioImg/vidiModify.png" class="card-img-top vidividi-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">영상 업로드 페이지</p>
+                </div>
+            </div>
+            <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
+                <img src="../../../resources/portFolioImg/vidiModify.png" class="card-img-top vidividi-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">채널 정보 수정 페이지</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            개발 스킬 백분률
         </div>
         <jsp:include page="../include/footer.jsp" />
     </div>

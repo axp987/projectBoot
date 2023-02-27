@@ -46,6 +46,8 @@
                     <img src="../../resources/imgUpload/github.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
                     <img src="../../resources/imgUpload/oracleDB.png" class="card-img-top percent-img">
+                    &nbsp;&nbsp;
+                    <img src="../../resources/imgUpload/mybatis.png" class="card-img-top percent-img" style="width: 70px;">
                 </div>
             </div>
 
