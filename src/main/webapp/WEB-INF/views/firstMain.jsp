@@ -24,7 +24,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="../../resources/JS/mainJS.js"></script>
-    <div class="firstPage" align="center">
+    <div class="container firstPage" align="center">
         <div class="mainfontValue">
             <a href="<%=request.getContextPath() %>/daily.do" class="blog-header-logo">Ho Chan Lee</a>
         </div>
@@ -32,7 +32,8 @@
             <img class="ImgSize" src="../../resources/imgUpload/myFace.jpg" class="rounded" alt="face">
             <p>
             <div class="subfontValue">
-                목표를 위해 인내심과 끈기를 가지고 한칸 한칸 부지런히 나아가 목표를 완수하는 개발자
+                목표를 위해 인내심과 끈기를 가지고 한칸 한칸<br>
+                부지런히 나아가 목표를 완수하는 신입 개발자
                 <span style="color: blueviolet;">이호찬</span>입니다.
             </div>
         </div>
