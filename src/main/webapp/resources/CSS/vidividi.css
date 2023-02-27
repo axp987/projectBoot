@@ -1,0 +1,21 @@
+body {
+    animation: fadein 10s ease 3s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  font-family: 'Fuzzy Bubbles', cursive;
+  background-image: url("../../resources/imgUpload/vidi-back.jpg");
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.container {
+    background-color: white;
+}
+.vidividi-img {
+    max-width: 700px;
+    max-height: 700px;
+}

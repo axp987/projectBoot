@@ -13,6 +13,9 @@ body {
 }
 
 /* 부모 div */
+#carouselExampleDark {
+    background-color: white;
+}
 
 /* 이미지 크기 */
 .imgSize {
