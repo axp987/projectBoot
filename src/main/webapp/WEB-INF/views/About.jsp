@@ -19,9 +19,9 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <jsp:include page="include/SelectBar.jsp" />
-    <br>
     <div id="carouselExampleDark" class="carousel slide" data-bs-touch="false">
+        <jsp:include page="include/SelectBar.jsp" />
+        <br>
         <div class="carousel-inner">
           <!-- 첫번째-->
           <div class="carousel-item active">
@@ -67,6 +67,8 @@
                        </div>
                        <p>
                        <div class="contextFont">
+                            2022 KH정보교육원 웹 개발자 양성과정 수료
+                            <br>
                             2022 국가평생교육진흥원(컴퓨터 공학(학사)) 졸업
                             <br>
                             2021 한국IT학교(정보보호 전공(공학사)) 졸업
@@ -97,54 +99,58 @@
                         Skills
                     </div>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col-4">
+                        <div class="col">
                           <div class="card">
                             <h5 class="card-title ">Front-end</h5>
                             <div class="card-body" align="center">
                               <div class="row">
-                                <div class="col-12 col-sm-12">
-                                    <!-- <img src="../../resources/imgUpload/web.jpg" class="card-img-top web-img" alt="..."> -->
-                                    <img src="../../resources/imgUpload/HTML5.jpg" class="card-img-top webCss" alt="...">
-                                    <img src="../../resources/imgUpload/CSS3.jpg" class="card-img-top webCss" alt="...">
-                                    <img src="../../resources/imgUpload/js.png" class="card-img-top" style="height: 100px; width: 100px;" alt="...">
+                                <div class="col-1">
+                                </div>
+                                <div class="col-5 ">
+                                  <img src="../../resources/imgUpload/HTML5.jpg" class="img-thumbnail card-img-top webCss" style="border: none;" alt="...">
+                                </div>
+                                <div class="col-5">
+                                  <img src="../../resources/imgUpload/CSS3.jpg" class="img-thumbnail card-img-top webCss" style="border: none;" alt="...">
                                 </div>
                               </div>
-                              <div class="row" align="center">
-                                <div class="col-2 col-sm-2">
-
+                              <div class="row">
+                                <div class="col-1">
                                 </div>
-                                <div class="col-3 col-sm-3">
-                                  <img src="../../resources/imgUpload/bootStrap.png" class="card-img-top" style="height: 80px; width: 80px;" alt="...">
+                                <div class="col-5">
+                                  <img src="../../resources/imgUpload/js.png" class="img-thumbnail card-img-top" style="height: 100px; width: 100px; border: none;" alt="...">
+                                </div>
+                                <div class="col-5">
+                                  <img src="../../resources/imgUpload/bootStrap.png" class="img-thumbnail card-img-top" style="height: 80px; width: 80px; border: none;" alt="...">
+                                  <br>
                                   BootStrap
                                 </div>
-                              </div>  
+                              </div> 
                             </div>
-                            
                           </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col">
                           <div class="card">
                             <h5 class="card-title">Back-end</h5>
                             <div class="card-body">
                               <div class="row">
-                                <div class="col-sm-2">
+                                <div class="col-lg-2">
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-6 col-lg-4">
                                     <img src="../../resources/imgUpload/Java.png" class="card-img-top card-default-size" alt="...">
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-6 col-lg-4">
                                     <img src="../../resources/imgUpload/c.png" class="card-img-top card-default-size" alt="...">
                                 </div>
-                                <div class="col-sm-2">
+                                <div class="col-lg-2">
                                 </div>
                               </div>
                               <div class="row">
-                                <div class="col-sm-1">
+                                <div class="col-lg-1">
                                 </div>
-                                <div class="col-4 col-sm-5">
+                                <div class="col-6 col-lg-5">
                                   <img src="../../resources/imgUpload/springframe.png" class="card-img-top web-img" alt="...">
                                 </div>
-                                <div class="col-4 col-sm-4">
+                                <div class="col-6 col-lg-5">
                                   <img src="../../resources/imgUpload/springboot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
                                 </div>
                               </div>
@@ -157,14 +163,21 @@
                             <h5 class="card-title">DataBase, Server</h5>
                             <div class="card-body">
                               <div class="row">
-                                <div class="col-sm-1">
+                                <div class="col-lg-1">
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-6 col-lg-5">
                                   <img src="../../resources/imgUpload/oracleDB.png" class="card-img-top DSCss" alt="...">
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-6 col-lg-5">
                                   <img src="../../resources/imgUpload/linux-logo.png" class="card-img-top DSCss" alt="...">
                                 </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-1">
+                                </div>
+                                <div class="col-6 col-lg-5">
+                                  <img src="../../resources/imgUpload/mybatis.png" class="img-thumbnail card-img-top DSCss" style="height: 50px; margin-top: 15px;">
+                                </div>  
                               </div>                              
                             </div>
                           </div>
@@ -172,27 +185,27 @@
                         <div class="col">
                           <div class="card">
                             <h5 class="card-title">Tools</h5>
-                            <div class="card-body">
+                            <div class="card-body" align="center">
                               <div class="row">
-                                <div class="col-sm-1">
+                                <div class="col-1">
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-5">
                                   <img src="../../resources/imgUpload/Eclipse.png" class="card-img-top toolCss" alt="..."><br>
                                   Eclipse
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-5">
                                   <img src="../../resources/imgUpload/vscode.png" class="card-img-top toolCss" alt="..."><br>
                                   Visual Studio Code
                                 </div>
                               </div>
                               <div class="row">
-                                 <div class="col-sm-1">
+                                 <div class="col-1">
                                  </div> 
-                                 <div class="col-sm-5">
+                                 <div class="col-5">
                                   <img src="../../resources/imgUpload/intellij.png" class="card-img-top toolCss"  alt="..."><br>
                                   IntelliJ IDEA
                                  </div>
-                                 <div class="col-sm-5">
+                                 <div class="col-5">
                                   <img src="../../resources/imgUpload/github.png" class="card-img-top toolCss" alt="..."><br>
                                   Git Hub
                                  </div>
@@ -238,10 +251,10 @@
             <i class="bi bi-caret-right-fill fs-2" style="color: black;"></i>
             <span class="visually-hidden">Next</span>
         </button>
+      <div>
+            <jsp:include page="include/footer.jsp" />
+        </div>
     </div>
   
-    <div align="center">
-        <jsp:include page="include/footer.jsp" />
-    </div>
 </body>
 </html>

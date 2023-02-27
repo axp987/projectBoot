@@ -10,22 +10,22 @@
 </head>
 <body>
     <hr>
-    <div style="padding-top: 40px;">
+    <div class="text-center" style="padding-top: 40px;">
         <footer class="text-muted">
             <div class="container">
               <div class="col">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-12 col-lg-4">
                     <p class="mb-0 pTag">Email
                       <br>
                       <a class="footerFont" onclick="clip('email')">axp987@naver.com</a></p>
                   </div>
-                  <div class="col-4">
+                  <div class="col-12 col-lg-4">
                     <p class="mb-0 pTag">Phone
                       <br>
                       <a class="footerFont" onclick="clip('phone')">010-2245-8357</a></p>
                   </div>
-                  <div class="col-4">
+                  <div class="col-12 col-lg-4">
                     <p class="mb-0 pTag">Address
                       <br>
                       <span class="footerFont">서울시 중랑구 면목로</span></p>

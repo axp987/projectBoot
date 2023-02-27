@@ -9,8 +9,10 @@
     top: 50%;
     transform: translate(-50%, -50%);
 
-    animation: fadein 10s ease 5s;
-  -webkit-animation: fadein 5s; /* Safari and Chrome */
+    animation: fadein 10s ease 3s;
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+
+  background-color: white;
 }
 @keyframes fadein {
     from {

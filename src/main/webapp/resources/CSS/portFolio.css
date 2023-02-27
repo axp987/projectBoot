@@ -15,12 +15,14 @@ body {
 .portFolio-img {
     width: 600px;
     height: 200px;
+    filter:brightness(70%);
 
     transition: all 0.2s linear;
 }
 
 .portFolio-img:hover {
     transform: scale(1.2);
+    filter:brightness(100%);
 }
 
 
@@ -36,3 +38,4 @@ body {
     font-weight: bold;
     color: cornflowerblue;
 }
+
