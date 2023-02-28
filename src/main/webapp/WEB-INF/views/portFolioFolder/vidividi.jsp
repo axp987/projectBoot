@@ -43,17 +43,17 @@
                 </div>
               </div>
               <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidiChannel.png" class="card-img-top vidividi-img" style="height: 80%;" alt="...">
+                <img src="../../../resources/portFolioImg/videoUpload.png" class="card-img-top vidividi-img" alt="...">
                 <div class="card-body">
-                  <p class="card-text">채널 관리 페이지</p>
+                  <p class="card-text">영상 업로드 페이지</p>
                 </div>
               </div>
         </div>
         <div class="row" style="float: none; margin: 100 auto;">
             <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidiModify.png" class="card-img-top vidividi-img" alt="...">
+                <img src="../../../resources/portFolioImg/vidiChannel.png" class="card-img-top vidividi-img" style="height: 80%;" alt="...">
                 <div class="card-body">
-                  <p class="card-text">영상 업로드 페이지</p>
+                  <p class="card-text">채널 관리 페이지</p>
                 </div>
             </div>
             <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
