@@ -30,20 +30,21 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8 col-sm-12">
-                <img src="../../../resources/portFolioImg/vidiMain.png" class="vidividi-img">
+            <div class="col-12 col-sm-12">
+                <img src="../../../resources/portFolioImg/vidiMain.png" class="img-fluid">
             </div>
         </div>
         <p>
         <div class="row" style="float: none; margin: 100 auto;">
             <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidichannelPage.png" class="card-img-top vidividi-img" alt="...">
+                <img src="../../../resources/portFolioImg/vidichannelPage.png" class="img-reponsive card-img-top vidividi-img" style="height: 500px;" alt="...">
                 <div class="card-body">
-                  <p class="card-text">채널 페이지</p>
+                  <p class="card-title">채널 페이지</p>
+                  <p class="card-text">일반 사용자들과 채널 주인의 영상을 확인할 수 있는 페이지 입니다.</p>
                 </div>
               </div>
               <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/videoUpload.png" class="card-img-top vidividi-img" alt="...">
+                <img src="../../../resources/portFolioImg/videoUpload.png" class="img-reponsive card-img-top vidividi-img" alt="...">
                 <div class="card-body">
                   <p class="card-text">영상 업로드 페이지</p>
                 </div>
@@ -63,8 +64,12 @@
                 </div>
             </div>
         </div>
-        <div class="row text-center">
-            개발 스킬 백분률
+        <br><br>
+        <div class="row">
+            <div class="col-12">
+                개발 스킬 백분률
+            </div>
+
         </div>
         <jsp:include page="../include/footer.jsp" />
     </div>
