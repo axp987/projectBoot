@@ -38,9 +38,9 @@
         <p>
         <div class="row" style="float: none; margin: 100 auto;">
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidichannelPage.png" class="img1 img-reponsive card-img-top vidividi-img" style="height: 500px;" alt="...">
-                <video hidden class="video-tag">
-                    <source src="../../../resources/video/channelMain.mkv">
+                <!-- <img src="../../../resources/portFolioImg/vidichannelPage.png" class="img1 img-reponsive card-img-top vidividi-img" style="height: 500px;" alt="..."> -->
+                <video muted class="video-tag" onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true">
+                    <source src="../../../resources/video/channelMain.mkv" ype="video/mkv">
                 </video>
                 <div class="card-body">
                   <p class="card-title">채널 페이지</p>
@@ -48,7 +48,10 @@
                 </div>
             </div>
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/videoUpload.png" class="img-reponsive card-img-top vidividi-img" alt="...">
+                <!-- <img src="../../../resources/portFolioImg/videoUpload.png" class="img-reponsive card-img-top vidividi-img" alt="..."> -->
+                <video muted class="video-tag" onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true">
+                    <source src="../../../resources/video/videoUpload.mkv" ype="video/mkv">
+                </video>
                 <div class="card-body">
                   <p class="card-text">영상 업로드 페이지</p>
                 </div>
@@ -62,7 +65,10 @@
                 </div>
             </div>
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidiModify.png" class="card-img-top vidividi-img" alt="...">
+                <!-- <img src="../../../resources/portFolioImg/vidiModify.png" class="card-img-top vidividi-img" alt="..."> -->
+                <video muted class="video-tag" onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true">
+                    <source src="../../../resources/video/channelModify.mkv" ype="video/mkv">
+                </video>
                 <div class="card-body">
                   <p class="card-text">채널 정보 수정 페이지</p>
                 </div>

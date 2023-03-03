@@ -1,6 +1,10 @@
 
 $(function() {
-    $(".img1").mouseover(function() {
-        $(".video-tag").show();
-    });
+  $(".video-tag").mouseover(function() {
+    this.play();
+  });
+
+  $(".video-tag").mouseleave(function() {
+    this.pause();
+  });
 });

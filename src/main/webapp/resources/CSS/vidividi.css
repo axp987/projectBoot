@@ -1,4 +1,7 @@
 body {
+    width: 100%;
+    height: 100%;
+
     animation: fadein 10s ease 3s;
   -webkit-animation: fadein 3s; /* Safari and Chrome */
   /* font-family: 'Fuzzy Bubbles', cursive; */
@@ -24,10 +27,22 @@ body {
 /* 프로젝트 이미지 */
 .card-img {
     padding-right: 15px;
+
+    width: 100%;
+    height: 100%;
 }
 
 .video-tag {
-    max-width: 500px;
-    max-height: 700px;    
+    width: 100%;
+    height: 100%;    
+}
+
+.video-tag {
+    transition: all 0.2s linear;
+}
+
+.video-tag:hover {
+    transform: scale(1.2);
+    filter:brightness(100%);
 }
 
