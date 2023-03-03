@@ -151,7 +151,7 @@
                                   <img src="../../resources/imgUpload/springframe.png" class="card-img-top web-img" alt="...">
                                 </div>
                                 <div class="col-6 col-lg-4">
-                                  <img src="../../resources/imgUpload/springBoot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
+                                  <img src="../../resources/imgUpload/springboot.png" style="padding-top: 27px;" class="card-img-top web-img" alt="...">
                                 </div>
                               </div>
 
@@ -190,7 +190,7 @@
                                 <div class="col-1">
                                 </div>
                                 <div class="col-5">
-                                  <img src="../../resources/imgUpload/EClipse.png" class="card-img-top toolCss" alt="..."><br>
+                                  <img src="../../resources/imgUpload/Eclipse.png" class="card-img-top toolCss" alt="..."><br>
                                   Eclipse
                                 </div>
                                 <div class="col-5">
@@ -244,13 +244,13 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
             <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-            <i class="bi bi-caret-left-fill fs-2" style="color: black;"></i>
-            <span class="visually-hidden">Previous</span>
+            <i class="bi bi-arrow-left-circle-fill fs-2" style="color: black;"></i>
+            <span class="visually-hidden" style="color: blueviolet;">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <i class="bi bi-caret-right-fill fs-2" style="color: black;"></i>
-            <span class="visually-hidden">Next</span>
-        </button>
+            <i class="bi bi-arrow-right-circle-fill fs-2" style="color: black;"></i>
+            <span class="visually-hidden" style="color: blue;">Next</span>
+          </button>
       <div>
             <jsp:include page="include/footer.jsp" />
         </div>

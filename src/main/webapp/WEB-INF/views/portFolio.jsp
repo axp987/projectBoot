@@ -23,52 +23,58 @@
     <p>
     <div class="container text-center">
         <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col table-hover" onclick="location.href='<%=request.getContextPath() %>/vidividi.do'">
-                <img src="../../resources/portFolioImg/vidivid.png" class="card-img-top img-thumbnail portFolio-img" alt="...">
+            <div class="col table-hover">
+                <img src="../../resources/portFolioImg/vidivid.png" onclick="location.href='<%=request.getContextPath() %>/vidividi.do'" class="card-img-top img-thumbnail portFolio-img" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">VIDIVIDI</h5>
                     <p class="card-text">영상 스트리밍 웹 사이트</p>
                 </div>
                 <div align="left">
-                    <div class="card-title">using</div>
+                    <div class="card-title" style="font-size: 24px; color: blue;">using</div>
+                    <div class="card-title">front-end</div>
                     <img src="../../resources/imgUpload/HTML5.jpg" class="card-img-top percent-img">
                     <img src="../../resources/imgUpload/CSS3.jpg" class="card-img-top" style="width: 53px; height: 55px;">
                     <img src="../../resources/imgUpload/js.png" class="card-img-top" style="width: 32px; height: 41px;">
                     &nbsp;&nbsp;
-                    <img src="../../resources/imgUpload/Java.png" class="card-img-top percent-img">
-                    &nbsp;&nbsp;
                     <img src="../../resources/SkillImg/j-Query.png" class="card-img-top" style="width: 70px; height: 30px;">
+                    <br>
+                    <div class="card-title">back-end</div>
+                    <img src="../../resources/imgUpload/Java.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
                     <img src="../../resources/SkillImg/jsp.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
                     <img src="../../resources/imgUpload/pngwing.png" class="card-img-top percent-img">
+                    &nbsp;&nbsp;
+                    <img src="../../resources/imgUpload/mybatis.png" class="card-img-top percent-img" style="height: 30px; width: 70px;">
                     <br>
+                    <div class="card-title">Tools</div>
                     <img src="../../resources/imgUpload/github.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
                     <img src="../../resources/imgUpload/oracleDB.png" class="card-img-top percent-img">
-                    &nbsp;&nbsp;
-                    <img src="../../resources/imgUpload/mybatis.png" class="card-img-top percent-img" style="width: 70px;">
                 </div>
             </div>
 
-            <div class="col table-hover" onclick="location.href='<%=request.getContextPath() %>/airbnb.do'">
-                <img src="../../resources/portFolioImg/Airbnb.png" class="card-img-top img-thumbnail portFolio-img" alt="...">
+            <div class="col table-hover">
+                <img src="../../resources/portFolioImg/Airbnb.png" onclick="location.href='<%=request.getContextPath() %>/airbnb.do'" class="card-img-top img-thumbnail portFolio-img" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Airbnb Clone</h5>
                     <p class="card-text">Airbnb 숙소 예약 사이트</p>
                 </div>
                 <div align="left">
-                    <div class="card-title">using</div>
+                    <div class="card-title" style="font-size: 24px; color: blue;">using</div>
+                    <div class="card-title">front-end</div>
                     <img src="../../resources/imgUpload/HTML5.jpg" class="card-img-top percent-img">
                     <img src="../../resources/imgUpload/CSS3.jpg" class="card-img-top" style="width: 53px; height: 55px;">
                     <img src="../../resources/imgUpload/js.png" class="card-img-top" style="width: 32px; height: 41px;">
                     &nbsp;&nbsp;
-                    <img src="../../resources/imgUpload/Java.png" class="card-img-top percent-img">
-                    &nbsp;&nbsp;
                     <img src="../../resources/SkillImg/j-Query.png" class="card-img-top" style="width: 70px; height: 30px;">
+                    <br>
+                    <div class="card-title">back-end</div>
+                    <img src="../../resources/imgUpload/Java.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
                     <img src="../../resources/SkillImg/jsp.png" class="card-img-top percent-img">
                     <br>
+                    <div class="card-title">Tools</div>
                     <img src="../../resources/imgUpload/github.png" class="card-img-top percent-img">
                     &nbsp;&nbsp;
                     <img src="../../resources/imgUpload/oracleDB.png" class="card-img-top percent-img">
