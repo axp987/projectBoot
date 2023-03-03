@@ -1,7 +1,7 @@
 body {
     animation: fadein 10s ease 3s;
   -webkit-animation: fadein 3s; /* Safari and Chrome */
-  font-family: 'Fuzzy Bubbles', cursive;
+  /* font-family: 'Fuzzy Bubbles', cursive; */
   background-image: url("../../resources/portFolioImg/vidi-back.jpg");
 }
 @keyframes fadein {
@@ -13,10 +13,21 @@ body {
     }
 }
 .container {
-    background-color: white;
+    background-color: blanchedalmond;
 }
 .vidividi-img {
-    max-width: 700px;
+    max-width: 500px;
     max-height: 700px;
     padding-top: 15px;
 }
+
+/* 프로젝트 이미지 */
+.card-img {
+    padding-right: 15px;
+}
+
+.video-tag {
+    max-width: 500px;
+    max-height: 700px;    
+}
+

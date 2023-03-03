@@ -19,6 +19,7 @@
     <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="../../../resources/JS/portFolio.js"></script>
     
     <div class="container text-center">
         <jsp:include page="../include/SelectBar.jsp" />
@@ -36,28 +37,31 @@
         </div>
         <p>
         <div class="row" style="float: none; margin: 100 auto;">
-            <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidichannelPage.png" class="img-reponsive card-img-top vidividi-img" style="height: 500px;" alt="...">
+            <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
+                <img src="../../../resources/portFolioImg/vidichannelPage.png" class="img1 img-reponsive card-img-top vidividi-img" style="height: 500px;" alt="...">
+                <video hidden class="video-tag">
+                    <source src="../../../resources/video/channelMain.mkv">
+                </video>
                 <div class="card-body">
                   <p class="card-title">채널 페이지</p>
                   <p class="card-text">일반 사용자들과 채널 주인의 영상을 확인할 수 있는 페이지 입니다.</p>
                 </div>
-              </div>
-              <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
+            </div>
+            <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
                 <img src="../../../resources/portFolioImg/videoUpload.png" class="img-reponsive card-img-top vidividi-img" alt="...">
                 <div class="card-body">
                   <p class="card-text">영상 업로드 페이지</p>
                 </div>
-              </div>
+            </div>
         </div>
         <div class="row" style="float: none; margin: 100 auto;">
-            <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidiChannel.png" class="card-img-top vidividi-img" style="height: 80%;" alt="...">
+            <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
+                <img src="../../../resources/portFolioImg/vidiChannel.png" class="card-img-top vidividi-img" style="height: 100%;" alt="...">
                 <div class="card-body">
                   <p class="card-text">채널 관리 페이지</p>
                 </div>
             </div>
-            <div class="card" style="width: 40rem; float: none; margin: 0 auto;">
+            <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
                 <img src="../../../resources/portFolioImg/vidiModify.png" class="card-img-top vidividi-img" alt="...">
                 <div class="card-body">
                   <p class="card-text">채널 정보 수정 페이지</p>
