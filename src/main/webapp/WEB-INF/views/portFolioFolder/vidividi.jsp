@@ -32,11 +32,6 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-sm-12">
-                <img src="../../../resources/portFolioImg/vidiMain.png" class="img-fluid">
-            </div>
-        </div>
-        <div class="row">
             <div class="col-12">
                 <div class="card-title">5인 팀프로젝트 VIDIVIDI 입니다.</div>
                 <div class="card-text">
@@ -52,7 +47,13 @@
                 </div>
             </div>
         </div>
-        <p>
+        <div class="row">
+            <div class="col-12 col-sm-12">
+                <img src="../../../resources/portFolioImg/vidiMain.png" class="img-fluid">
+            </div>
+        </div>
+        <p><p>
+        <div class="card-text">마우스를 이미지에 올리면 영상이 재생됩니다.</div>
         <div class="row" style="float: none; margin: 100 auto;">
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
                 <!-- <img src="../../../resources/portFolioImg/vidichannelPage.png" class="img1 img-reponsive card-img-top vidividi-img" style="height: 500px;" alt="..."> -->
@@ -88,8 +89,9 @@
                 <div class="card-body">
                     <p class="card-title">영상 업로드 페이지</p>
                     <p class="card-text">
-                        채널 주인이 올린 영상을 수정할 수 있는 페이지 입니다.<br>
+                        채널 주인이 업로드한 영상을 수정하는 페이지 입니다.<br>
                     </p>
+                    <p class="card-text" style="font-size: 18px;">(빠른 시일내에 영상을 업로드 하겠습니다. 불편을 드려 죄송합니다.)</p>
                 </div>
             </div>
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">

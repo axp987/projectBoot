@@ -11,3 +11,8 @@
     padding-right: 30px;
     font-weight: bold;
 }
+
+.card-text {
+    font-family: 'Dongle', sans-serif;
+    font-size: 27px;
+}

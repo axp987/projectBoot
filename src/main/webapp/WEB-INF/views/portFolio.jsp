@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../resources/CSS/portFolio.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Single+Day&display=swap');
     </style>
     <title>HoChan 포트폴리오</title>
 </head>
