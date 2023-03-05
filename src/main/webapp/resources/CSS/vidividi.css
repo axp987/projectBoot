@@ -46,3 +46,13 @@ body {
     filter:brightness(100%);
 }
 
+.card-title {
+    font-weight: bold;
+    font-family: 'Dongle', sans-serif;
+    font-size: 32px;
+}
+
+.card-text {
+    font-family: 'Dongle', sans-serif;
+    font-size: 27px;
+}

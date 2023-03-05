@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../../../resources/CSS/vidividi.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Single+Day&display=swap');
     </style>
     <title>VIDIVID Project</title>
 </head>
@@ -35,52 +36,76 @@
                 <img src="../../../resources/portFolioImg/vidiMain.png" class="img-fluid">
             </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card-title">5인 팀프로젝트 VIDIVIDI 입니다.</div>
+                <div class="card-text">
+                    프로젝트 주제는 영상스트리밍 웹사이트를 구현하여 여러 사용자들이 영상을 간편하게 시청하기 위해 만들었습니다<br>
+                    제가 맡은 파트는 <span style="color: blue;">영상 업로드 및 채널 관리 페이지</span> 입니다.
+                </div>
+                <div class="gitLink card-text">
+                    <a href="https://github.com/FisrstFinal/Five_ONE_Final" target="_blank">
+                        <img src="../../../resources/imgUpload/github.png" style="width: 150px; height: 150px;">
+                        <br>
+                        Link
+                    </a>
+                </div>
+            </div>
+        </div>
         <p>
         <div class="row" style="float: none; margin: 100 auto;">
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
                 <!-- <img src="../../../resources/portFolioImg/vidichannelPage.png" class="img1 img-reponsive card-img-top vidividi-img" style="height: 500px;" alt="..."> -->
                 <video muted class="video-tag" onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true">
-                    <source src="../../../resources/video/channelMain.mkv" ype="video/mkv">
+                    <source src="../../../resources/video/channelMain.mkv">
                 </video>
                 <div class="card-body">
                   <p class="card-title">채널 페이지</p>
-                  <p class="card-text">일반 사용자들과 채널 주인의 영상을 확인할 수 있는 페이지 입니다.</p>
+                  <p class="card-text">
+                    일반 사용자들과 채널 주인의 영상을 확인할 수 있는 페이지 입니다.<br>
+                    채널 주인은 본인이 원하는 영상을 업로드하여 본인 채널에 영상을 저장할 수 있습니다.<br>
+                  </p>
                 </div>
             </div>
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
                 <!-- <img src="../../../resources/portFolioImg/videoUpload.png" class="img-reponsive card-img-top vidividi-img" alt="..."> -->
                 <video muted class="video-tag" onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true">
-                    <source src="../../../resources/video/videoUpload.mkv" ype="video/mkv">
+                    <source src="../../../resources/video/videoUpload.mkv">
                 </video>
                 <div class="card-body">
-                  <p class="card-text">영상 업로드 페이지</p>
+                  <p class="card-title">영상 업로드 페이지</p>
+                  <p class="card-text">
+                    영상 업로드 버튼을 클릭하여 영상을 업로드 할 수 있습니다<br>
+                    재생목록 기능과 썸네일 이미지를 설정할 수 있도록 제작하였습니다.<br>
+                  </p>
+
                 </div>
             </div>
         </div>
         <div class="row" style="float: none; margin: 100 auto;">
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
-                <img src="../../../resources/portFolioImg/vidiChannel.png" class="card-img-top vidividi-img" style="height: 100%;" alt="...">
+                <img src="../../../resources/video/videoModify.png" class="video-tag" alt="...">
                 <div class="card-body">
-                  <p class="card-text">채널 관리 페이지</p>
+                    <p class="card-title">영상 업로드 페이지</p>
+                    <p class="card-text">
+                        채널 주인이 올린 영상을 수정할 수 있는 페이지 입니다.<br>
+                    </p>
                 </div>
             </div>
             <div class="card-img col-md-12 col-lg" style="width: 40rem; float: none; margin: 0 auto;">
                 <!-- <img src="../../../resources/portFolioImg/vidiModify.png" class="card-img-top vidividi-img" alt="..."> -->
                 <video muted class="video-tag" onmouseover="this.play()" onmouseout="this.pause()" autobuffer="true">
-                    <source src="../../../resources/video/channelModify.mkv" ype="video/mkv">
+                    <source src="../../../resources/video/channelModify.mkv">
                 </video>
                 <div class="card-body">
-                  <p class="card-text">채널 정보 수정 페이지</p>
+                  <p class="card-title">채널 정보 수정 페이지</p>
+                  <p class="card-text">
+                    채널의 이름, 프로필, 배너 이미지 등 채널의 정보를 수정할 수 있습니다.<br>
+                  </p>
                 </div>
             </div>
         </div>
         <br><br>
-        <div class="row">
-            <div class="col-12">
-                개발 스킬 백분률
-            </div>
-
-        </div>
         <jsp:include page="../include/footer.jsp" />
     </div>
 </body>
