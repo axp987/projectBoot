@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../resources/CSS/footerCss.css"></style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Great+Vibes&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Single+Day&display=swap');
+    </style>
     <title>footer</title>
 </head>
 <body>
@@ -18,17 +22,17 @@
                   <div class="col-12 col-lg-4">
                     <p class="mb-0 pTag">Email
                       <br>
-                      <a class="footerFont" onclick="clip('email')">axp987@naver.com</a></p>
+                      <a class="footerFont card-text" onclick="clip('email')">axp987@naver.com</a></p>
                   </div>
                   <div class="col-12 col-lg-4">
                     <p class="mb-0 pTag">Phone
                       <br>
-                      <a class="footerFont" onclick="clip('phone')">010-2245-8357</a></p>
+                      <a class="footerFont card-text" onclick="clip('phone')">010-2245-8357</a></p>
                   </div>
                   <div class="col-12 col-lg-4">
                     <p class="mb-0 pTag">Address
                       <br>
-                      <span class="footerFont">서울시 중랑구 면목로</span></p>
+                      <span class="footerFont card-text">서울시 중랑구 면목로</span></p>
                   </div>
                 </div>
               </div>

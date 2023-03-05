@@ -11,7 +11,7 @@
 <body>
     <div class="container text-center">
         <div class="row">
-            <div class="col-sm-12 mainFont"><a href="<%=request.getContextPath() %>/daily.do">Ho Chan Lee</a></div>
+            <div class="col-sm-12 mainFont"><a href="<%=request.getContextPath() %>/">Ho Chan Lee</a></div>
         </div>
         <p>
         <div class="row selectBar">

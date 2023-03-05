@@ -26,7 +26,7 @@
     <script src="../../resources/JS/mainJS.js"></script>
     <div class="container firstPage" align="center">
         <div class="mainfontValue">
-            <a href="<%=request.getContextPath() %>/daily.do" class="blog-header-logo">Ho Chan Lee</a>
+            <a href="<%=request.getContextPath() %>/" class="blog-header-logo">Ho Chan Lee</a>
         </div>
         <div class="text-center">
             <img class="ImgSize" src="../../resources/imgUpload/myFace.jpg" class="rounded" alt="face">
