@@ -41,7 +41,7 @@
             <a href="<%=request.getContextPath() %>/" class="aLink">Home</a>
             <a href="<%=request.getContextPath() %>/about.do" class="aLink">About</a>
             <a href="<%=request.getContextPath() %>/portFolio.do" class="aLink">PortFolio</a>
-            <a href="<%=request.getContextPath() %>/daily.do" class="aLink">Daily</a>
+            <a href="<%=request.getContextPath() %>/contact.do" class="aLink">Contact</a>
         </div>
         <div>
             <jsp:include page="include/footer.jsp" />
